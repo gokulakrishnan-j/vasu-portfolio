@@ -36,6 +36,9 @@ export default function About() {
 
       <div className="about-grid">
         <div className="about-bio">
+          <div className="profile-img-wrapper">
+            <img src="/profile.jpg" alt="Vasu Profile" className="profile-img" />
+          </div>
           <h3 className="bio-title">Hello! I'm Vasu.</h3>
           <p className="bio-text">
             I am a highly motivated Data Scientist fresher with a strong academic foundation in statistics and computer science. I specialize in training machine learning models, uncovering hidden patterns through exploratory data analysis, and deploying models to production.
